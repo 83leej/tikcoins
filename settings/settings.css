@@ -1,0 +1,43 @@
+body {
+    background-color: #222;
+    color: #eee;
+}
+
+.special-text {
+    color: red;
+}
+#export, #exportSpenders {
+    color:chartreuse;
+    background-color:forestgreen; 
+}
+.header {
+    color:firebrick;
+    
+}
+.header2 {
+    color:#ce2121;
+    
+}
+.info{
+    color:aliceblue;
+    
+}
+a{
+    color:chartreuse;
+    text-decoration: none;
+}
+table, th, td {
+  border: 1px solid aliceblue;
+  border-collapse: grove;
+    border-radius: 10px;
+}
+
+th{
+    color:#ce2121;
+    background-color: azure
+}
+td{
+    color: oldlace;
+    background-color:dodgerblue;
+    padding: 2px;
+}

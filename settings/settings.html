@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="settings.css">
+    <title>TikTok Investigator: Settings</title>
+</head>
+<body>
+        <h2 class="header">Session Information <button id="export">EXPORT RESULTS</button><button id="exportSpenders">EXPORT SPENDERS RESULTS</button></h2>
+        <h3 class="header2">Current users in DB: <span id="userC" class="info"></span></h3>
+        <h3 class="header2">Current spend tracked: <span id="userT" class="info"></span></h3>
+        <h3 class="header2">Current spenders tracked: <span id="userS" class="info"></span></h3>
+        <h3 class="header">Current User Information</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Nick</th>
+                    <th>DESC</th>
+                    <th>Coins</th>
+                    <th>Spent</th>
+                    <th>RANK</th>
+                    <th>RLevel</th>
+                    <th>Admin</th>
+                    <th>RoleID</th>
+                    <th>Verified</th>
+                    <th>ChanAdmin</th>
+                    <th>Muted</th>
+                    <th>SupAdmin</th>
+                    <th>MuteTime</th>
+                </tr>
+            </thead>
+            <tbody id="ExportList"></tbody></table>
+    <script src="settings.js"></script>
+</body>
+</html>

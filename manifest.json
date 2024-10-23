@@ -1,0 +1,46 @@
+{
+    // Comments are accepted in the manifest, even though it is JSON.
+    "manifest_version": 3,
+    "name": "TikTok Investirgator",
+    "description": "Do Stuff On TikTok",
+    "version": "0.0.1",
+    "icons": {
+        "16": "logo/tt.png",
+        "48": "logo/tt.png",
+        "128": "logo/tt.png"
+    },
+    "options_page": "settings/settings.html",
+    "side_panel": {
+        "default_path": "sp/index.html"
+    },
+    "action": {
+       "default_popup": "popup/popup.html",
+        "default_title": "TikTok Stuff"
+     },
+    "permissions": [
+        "sidePanel",
+        "webRequest",
+        "storage",
+        "declarativeContent",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback",
+        "declarativeNetRequestWithHostAccess",
+        "tabs",
+        "activeTab",
+        "downloads"
+    ],
+    
+    "host_permissions": [
+        "*://*.tiktok.com/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [ ],
+            "matches": ["<all_urls>"],
+            "extension_ids": []
+        }
+    ]
+}
